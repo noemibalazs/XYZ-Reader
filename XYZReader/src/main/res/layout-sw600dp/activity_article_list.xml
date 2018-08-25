@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:elevation="8dp"
+    android:fitsSystemWindows="true"
     android:background="@color/photo_placeholder"
     android:id="@+id/coordinator_layout">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar_layout"
         android:elevation="4dp"
+        android:fitsSystemWindows="true"
         android:layout_width="match_parent"
         android:layout_height="@dimen/appbar_layout_height">
 
@@ -19,6 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:expandedTitleMarginStart="32dp"
+            android:fitsSystemWindows="true"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
 

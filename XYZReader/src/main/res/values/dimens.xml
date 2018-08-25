@@ -12,6 +12,6 @@
     <dimen name="appbar_layout_height">112dp</dimen>
     <dimen name="list_item_image_height">100dp</dimen>
 
-    <dimen name="padding_Top">110dp</dimen>
+    <dimen name="padding_Top">90dp</dimen>
 
 </resources>
